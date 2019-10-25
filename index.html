@@ -19,6 +19,129 @@
       .container {
         width: 100%;
       }
+
+      /* Header row */
+      .header-top-img img {
+        width: 100%;
+      }
+
+      /* Halloween row */
+      .halloween-img {
+        width: 100%;
+      }
+
+      .halloween-img img {
+        width: 100%;
+      }
+
+      .halloween-info {
+        width: 100%;
+      }
+
+      /* Art Exhibit */
+      .art-exhibit-info {
+        width: 100%;
+      }
+
+      .art-exhibit-img {
+        width: 100%;
+      }
+
+      .art-exhibit-img img {
+        width: 100%;
+      }
+
+      /* African American row */
+      .african-american-img {
+        width: 100%;
+      }
+
+      .african-american-img img {
+        width: 100%;
+      }
+
+      .african-american-info {
+        width: 100%;
+      }
+
+      /* Books Club row */
+      .book-club-info {
+        width: 70%;
+      }
+
+      .book-club-img {
+        width: 30%;
+      }
+
+      .book-club-img img {
+        width: 90%;
+      }
+
+      /* Librarian */
+      .header-date p {
+        margin-top: 0 !important;
+      }
+
+      /* Events */
+      .hr {
+        margin-bottom: 0 !important;
+      }
+
+      .calendar {
+        margin-bottom: 10px;
+      }
+
+      /* New Arrivals */
+      .arrivals-links {
+        width: 100%;
+      }
+
+      .arrivals-links li {
+        margin-left: 0 !important;
+      }
+
+      .arrivals-img {
+        width: 100%;
+      }
+
+      .arrivals-img img {
+        width: 50%;
+        margin-right: 60px;
+      }
+
+      /* Share row */
+      .share-row-container {
+        width: 100%;
+        margin: 0 auto;
+      }
+
+      /* Footer */
+      .links-container {
+        width: 70%;
+        margin: 0 auto;
+      }
+
+
+    }
+
+    @media only screen and (max-width: 320px) {
+
+      /* New Arrivals */
+      .arrivals-links {
+        width: 50%;
+      }
+
+      .arrivals-links li {
+        margin-left: 0 !important;
+      }
+
+      .arrivals-img {
+        width: 40%;
+      }
+
+      .arrivals-img img {
+        width: 90%;
+      }
     }
   </style>
 
@@ -30,12 +153,12 @@
     <tr>
       <td>
         <!-- Start of table container -->
-        <table cellspacing='0' cellpadding='0' border="0" width='600px' align='center'>
+        <table cellspacing='0' cellpadding='0' border="0" width='600px' align='center' class="container">
           <!-- Start of header row  -->
           <tr>
             <td>
               <!-- Top img -->
-              <table cellspacing='0' cellpadding='0' border="0" class="header-top-img">
+              <table cellspacing='0' cellpadding='0' border="0" width='100%' class="header-top-img">
                 <tr>
                   <td>
                     <a href="https://www.broward.org/Library/Events/Pages/StandUpSpeakOut.aspx" target="_blank">
@@ -47,7 +170,7 @@
               <!-- Top img -->
 
               <!-- Title -->
-              <table cellspacing='0' cellpadding='0' border="0" class="header-title">
+              <table cellspacing='0' cellpadding='0' border="0" width='100%' class="header-title">
                 <tr>
                   <td>
                     <p style="text-decoration: none; color: #007ac1; font-family: 'Open Sans', sans-serif, 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande'; font-size: 20px; font-weight: 700; margin-top: -2px;">Stand Up Speak Out: Community
@@ -98,7 +221,7 @@
           <!-- Start of Halloween row -->
           <tr>
             <td>
-              <table cellspacing='0' cellpadding='0' border="0">
+              <table cellspacing='0' cellpadding='0' border="0" width='100%'>
                 <tr>
                   <td>
                     <!-- Title -->
@@ -146,8 +269,9 @@
                       <tr>
                         <td>
                           <a href="https://www.eventbrite.com/e/friday-fright-night-at-the-library-tickets-67040561123" target="_blank">
-                            <button type="button"
-                              style="text-decoration: none; font-family: 'Open Sans', sans-serif, 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande'; font-size: 13px; font-weight: 700;  color: #fff; padding: 10px 20px; background-color:#198ebd; border-radius: 5px; cursor: pointer;">Tickets</button>
+                            <div
+                              style="text-decoration: none; font-family: 'Open Sans', sans-serif, 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande'; font-size: 13px; font-weight: 700;  color: #fff; padding: 10px 20px; background-color:#198ebd; border-radius: 5px; cursor: pointer;">
+                              Tickets</div>
                           </a>
                         </td>
                       </tr>
@@ -488,11 +612,11 @@
                     </ul>
 
                     <!-- HR -->
-                    <hr width='95%' style="color: #222222; margin-bottom: -10px;">
+                    <hr width='95%' class="hr" style="color: #222222; margin-bottom: -10px;">
                     <!-- HR -->
 
                     <!-- Calendar -->
-                    <table cellspacing='0' cellpadding='0' border="0" width='100%'>
+                    <table cellspacing='0' cellpadding='0' border="0" width='100%' class="calendar">
                       <tr>
                         <td>
                           <a href="http://ems.browardlibrary.org/mastercalendar/MasterCalendar.aspx" target="_blank" style="text-decoration: none; color: #007ac1; font-family: 'Open Sans' , sans-serif, 'Helvetica Neue' , Helvetica,
@@ -505,7 +629,7 @@
                     </table>
 
                     <!-- HR -->
-                    <hr width='95%' style="color: #222222; margin-top: -5px;  margin-bottom: 20px;">
+                    <hr width='95%' class="hr" style="color: #222222; margin-top: -5px;  margin-bottom: 20px;">
                     <!-- HR -->
                   </td>
                 </tr>
@@ -664,7 +788,7 @@
             <!-- Link row -->
         <tr>
           <td>
-            <table cellspacing='0' cellpadding='0' border="0" width='50%' align='center' style="margin-bottom: 10px;">
+            <table cellspacing='0' cellpadding='0' border="0" width='50%' align='center' class="share-row-container" style="margin-bottom: 10px;">
               <tr>
                 <td>
                   <!-- Facebook -->
@@ -750,11 +874,11 @@
             <!-- Links 2 -->
         <tr>
           <td>
-            <table cellspacing='0' cellpadding='0' border="0" width='40%' align='center' style="margin-top: 30px;">
+            <table cellspacing='0' cellpadding='0' border="0" width='40%' align='center' class="links-container" style="margin-top: 30px;">
               <tr>
                 <td>
                   <!-- Facebook -->
-                  <table cellspacing='0' cellpadding='0' border="0" width='20%' align='left'>
+                  <table cellspacing='0' cellpadding='0' border="0" width='20%' align='left' class="facebook-link">
                     <tr>
                       <td>
                         <a href="https://www.facebook.com/browardcountylibrary/" target="_blank">
@@ -765,7 +889,7 @@
                   </table>
 
                   <!-- Tweeter -->
-                  <table cellspacing='0' cellpadding='0' border="0" width='20%' align='left'>
+                  <table cellspacing='0' cellpadding='0' border="0" width='20%' align='left' class="tweeter-link">
                     <tr>
                       <td>
                         <a href="https://twitter.com/BrowardLibrary/" target="_blank">
@@ -776,7 +900,7 @@
                   </table>
 
                   <!-- Link -->
-                  <table cellspacing='0' cellpadding='0' border="0" width='20%' align='left'>
+                  <table cellspacing='0' cellpadding='0' border="0" width='20%' align='left' class="home-page-link">
                     <tr>
                       <td>
                         <a href="https://www.broward.org/Library/Pages/default.aspx" target="_blank">
@@ -787,7 +911,7 @@
                   </table>
 
                   <!-- YouTube -->
-                  <table cellspacing='0' cellpadding='0' border="0" width='20%' align='left'>
+                  <table cellspacing='0' cellpadding='0' border="0" width='20%' align='left' class="youtube-link">
                     <tr>
                       <td>
                         <a href="https://www.youtube.com/user/browardcountylibrary/videos" target="_blank">
@@ -798,7 +922,7 @@
                   </table>
 
                   <!-- Instagram -->
-                  <table cellspacing='0' cellpadding='0' border="0" width='20%' align='right'>
+                  <table cellspacing='0' cellpadding='0' border="0" width='20%' align='right' class="instagram-link">
                     <tr>
                       <td>
                         <a href="https://www.instagram.com/browardlibrary/" target="_blank">
